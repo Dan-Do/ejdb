@@ -67,11 +67,11 @@ typedef uint8_t ejdb_idx_mode_t;
 #define EJDB_IDX_UNIQUE ((ejdb_idx_mode_t) 0x01U)
 
 /** Index values have string type.
- *  Type conversion will be performed on atempt to save value with other type */
+ *  Type conversion will be performed on attempt to save value with other type */
 #define EJDB_IDX_STR ((ejdb_idx_mode_t) 0x04U)
 
 /** Index values have signed integer 64 bit wide type.
- *  Type conversion will be performed on atempt to save value with other type */
+ *  Type conversion will be performed on attempt to save value with other type */
 #define EJDB_IDX_I64 ((ejdb_idx_mode_t) 0x08U)
 
 /** Index value have floating point type.
